@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+header{
+    background-color: #01ddda;
+    padding: 50px;
+}
+
+.frase{
+    display: none;
+}
+
+.titulo{
+    color: white;
+    background-color: #01ddda;
+    font-family: "Bebas Neue", serif;  
+    font-size: 70px;  
+}
+
+.titulo span{
+    color: #01ddda;
+    background-color: white;
+}
+
+#headerprofile{
+    width: 80%;
+    height: auto;
+}
+
+.custom-navbar {
+    background-color: #01ddda; /* Cor da barra */
+  }
+  
+  .custom-navbar .navbar-brand,
+  .custom-navbar .nav-link {
+    color: white !important; /* Torna os links visíveis */
+    font-family: "Bebas Neue", serif;
+    font-size: 1.2rem;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #fff200 !important; /* Cor ao passar o mouse */
+  }
+  
+  .custom-navbar .navbar-toggler-icon {
+    filter: invert(1); /* Ajusta o ícone de hambúrguer para ficar visível */
+  }
+
+  .subtitulos{
+    color: #01ddda;
+  }
+  
+  footer{
+    background-color: #01ddda;
+    color: white;
+  }
+
+  
+  @media (min-width: 768px){
+    header{
+        padding: 10px;
+      }
+    
+      .frase{
+        display: block;
+        color: white;
+        font-family: "Playfair Display", serif;
+        font-size: 20px;
+      }
+    
+      #headerprofile{
+        width: 50%;
+        height: auto;
+        margin: 0;
+      }
+    
+      .titulo{
+        color: white;
+        background-color: #01ddda;
+        font-family: "Bebas Neue", serif;  
+        font-size: 100px;  
+      }
+  }

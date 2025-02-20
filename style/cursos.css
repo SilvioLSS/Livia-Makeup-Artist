@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+header{
+    background-color: #01ddda;
+    padding: 50px;
+}
+
+.intro {
+  background: linear-gradient(120deg, #00eaff, #01ddda, #0059ff);
+  background-size: 300% 300%;
+  animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.frase{
+  display: none;
+}
+
+.titulo{
+    color: white;
+    background-color: #01ddda;
+    font-family: "Bebas Neue", serif;  
+    font-size: 70px;  
+}
+
+.titulo span{
+    color: #01ddda;
+    background-color: white;
+}
+
+#headerprofile{
+    width: 80%;
+    height: auto;
+}
+
+.custom-navbar {
+    background-color: #01ddda; /* Cor da barra */
+  }
+  
+  .custom-navbar .navbar-brand,
+  .custom-navbar .nav-link {
+    color: white !important; /* Torna os links visíveis */
+    font-family: "Bebas Neue", serif;
+    font-size: 1.2rem;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #fff200 !important; /* Cor ao passar o mouse */
+  }
+  
+  .custom-navbar .navbar-toggler-icon {
+    filter: invert(1); /* Ajusta o ícone de hambúrguer para ficar visível */
+  }
+  
+  .main-content {
+    background-color: #f8f9fa;
+    color: #01ddda;
+  }
+  
+  .btn-primary {
+    background-color: #01ddda;
+    color: white;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .btn-primary:hover {
+    background-color: #00c7c4;
+  }
+  
+
+.subtitulos{
+  color: #01ddda;
+}
+
+footer{
+  background-color: #01ddda;
+  color: white;
+  padding: 10px;
+}
+
+@media (min-width: 768px){
+
+  header{
+    padding-top: -10px;
+  }
+
+  .frase{
+    display: block;
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+  }
+
+  #headerprofile{
+    width: 50%;
+    height: auto;
+    margin: 0;
+  }
+
+  .titulo{
+    color: white;
+    background-color: #01ddda;
+    font-family: "Bebas Neue", serif;  
+    font-size: 100px;  
+  }
+
+  footer{
+    padding: 10px;
+  }
+
+}
